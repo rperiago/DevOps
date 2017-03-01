@@ -11,7 +11,7 @@ Não há uma maneira certa de adotar uma filosofia DevOps, embora haja maneiras 
 2. Criar o cargo de DevOps, não se trata de um cargo ou profissional 
 3. Criar equipes isoladas, Desenvolvedores, QA, Segurança Operações, estas equipes devem trabalhar em conjunto no Dia a Dia
 
-A comunidade em torno de DevOps tem se unido em torno de um conjunto de princípios geralmente acordados que apoiam a filosofia. Três dos princípios mais comumente aceitos são **[Cultura](Cultura)**, **[Automação](Automação)** e **[Métricas](Métricas)**. Sem qualquer um desses, seria difícil adotar uma filosofia DevOps.
+A comunidade em torno de DevOps tem se unido em torno de um conjunto de princípios geralmente acordados que apoiam a filosofia. Três dos princípios mais comumente aceitos são **[Cultura](https://github.com/rperiago/DevOps/wiki/Cultura)**, **[Automação](https://github.com/rperiago/DevOps/wiki/Automação)** e **[Métricas](https://github.com/rperiago/DevOps/wiki/Métricas)**. Sem qualquer um desses, seria difícil adotar uma filosofia DevOps.
 
 OK. Então você tem uma definição de DevOps. Mas realmente não dizer muito. DevOps como um termo é a combinação das palavras "desenvolvimento" e "operações". O objetivo do DevOps é remover as ineficiências que existem ao longo do pipeline de **desenvolvimento**, **implantação** e **operações**, promovendo ao mesmo tempo uma qualidade superior.
 
