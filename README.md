@@ -1,5 +1,6 @@
 # DevOps
 Um resumo dos meus estudos sobre DevOps
+> quase todo todo materia aqui foi traduzido de forma livre do curso da [CloudAcademy](https://cloudacademy.com/)
 
 ## O que é DevOps
 
