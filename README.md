@@ -1,6 +1,5 @@
 # DevOps
 Um resumo dos meus estudos sobre DevOps
-> quase todo todo materia aqui foi traduzido de forma livre do curso da [CloudAcademy](https://cloudacademy.com/)
 
 ## O que é DevOps
 
@@ -17,3 +16,6 @@ A comunidade em torno de DevOps tem se unido em torno de um conjunto de princíp
 OK. Então você tem uma definição de DevOps. Mas realmente não dizer muito. DevOps como um termo é a combinação das palavras "desenvolvimento" e "operações". O objetivo do DevOps é remover as ineficiências que existem ao longo do pipeline de **desenvolvimento**, **implantação** e **operações**, promovendo ao mesmo tempo uma qualidade superior.
 
 O DevOps ajuda a fornecer uma maneira melhor de analisar o pipeline de desenvolvimento, implantação e operações. Faz isso promovendo uma cultura de colaboração e promovendo a automação de tudo o que faz sentido. Ele também promove a medição de tantos dados úteis quanto possível.
+
+##### Fontes
+> * [CloudAcademy](https://cloudacademy.com/)
