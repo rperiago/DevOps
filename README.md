@@ -1,10 +1,10 @@
 # O que é DevOps
 
-A comunidade em torno de DevOps tem se unido em torno de um conjunto de princípios geralmente acordados que apoiam a filosofia. Três dos princípios mais comumente aceitos são **[Cultura](#Cultura)**, **[Automação](Automação)** e **[Métricas](Métricas)**. Sem qualquer um desses, seria difícil adotar uma filosofia DevOps.
+A comunidade em torno de DevOps tem se unido em torno de um conjunto de princípios geralmente acordados que apoiam a filosofia. Três dos princípios mais comumente aceitos são **[Cultura](#Cultura)**, **[Automação](#Automação)** e **[Métricas](#Métricas)**. Sem qualquer um desses, seria difícil adotar uma filosofia DevOps.
 
 O termo DevOps é a combinação das palavras "desenvolvimento" e "operações". Seu objetivo é remover as ineficiências encontradas ao longo do pipeline de **desenvolvimento**, **implantação** e **operações**.
 
-O DevOps ajuda a fornecer uma maneira melhor de analisar o pipeline de desenvolvimento, implantação e operações. Faz isso promovendo uma cultura de colaboração e [automação](Automação). Além de utilizar métricas de todos os dados úteis quanto possível. Trazendo assim uma melhor qualidade na entrega do projeto a ser desenvolvido.
+O DevOps ajuda a fornecer uma maneira melhor de analisar o pipeline de desenvolvimento, implantação e operações. Faz isso promovendo uma cultura de colaboração e [automação](#Automação). Além de utilizar métricas de todos os dados úteis quanto possível. Trazendo assim uma melhor qualidade na entrega do projeto a ser desenvolvido.
 
 
 ## Cultura
@@ -20,6 +20,13 @@ Pessoas e processos são mais importantes. Se a cultura não estiver presente, q
 Com tudo isso é importante lembrar que todos dividimos a responsabilidade. A Filosofia DevOps vem para derrubar a culpa.
 
 A colaboração e o compartilhamento de ideias e conhecimento ajudam a criar a cultura necessária para o sucesso com DevOps.
+
+## [Automação](#Automação)
+
+Tudo que puder e achar relevante automatize. Libere os humanos para realizar tarefas que exigem criatividade e intuição e deixe as tarefas repetitivas para os computadores, que sabem executá-las rapidamente e de forma bem mais confiável.
+
+O ponto chave aqui é reduzir a interação humana. Você já esteve naquela situação em que quer fazer aquela receita de bolo que sua vó faz tão bem. Você liga pra ela anota a receita detalhadamente e a segue perfeitamente, mas no final o bolo não sai como você imaginou, pois é a aqui que entra a automação. Somos humanos, nos distraímos ou simplesmente não estamos em um dia bom. Talvez possamos ter colocado açúcar de mais, ou pouca farinha, quem sabe? Fato é que a automação evita estes problemas e nos deixa livres para focar em coisas mais importantes.
+
 
 ##### Fontes
 > * [CloudAcademy](https://cloudacademy.com/)
