@@ -7,7 +7,7 @@ O termo DevOps é a combinação das palavras "desenvolvimento" e "operações".
 O DevOps ajuda a fornecer uma maneira melhor de analisar o pipeline de **desenvolvimento**, **implantação** e **operações**. Faz isso promovendo uma **cultura** de **colaboração** e **automação**. Além de utilizar **métricas** de todos os dados úteis quanto possível. Trazendo assim uma melhor qualidade na entrega do projeto a ser desenvolvido.
 
 
-## Cultura
+### Cultura
 
 DevOps vai de Filosofia a modismo sem uma cultura para sustentá-lo.
 
@@ -21,13 +21,13 @@ Com tudo isso é importante lembrar que todos dividimos a responsabilidade. A Fi
 
 A colaboração e o compartilhamento de ideias e conhecimento ajudam a criar a **cultura** necessária para o sucesso com DevOps.
 
-## Automação
+### Automação
 
 Tudo que puder e achar relevante automatize. Libere os humanos para realizar tarefas que exigem criatividade e intuição e deixe as tarefas repetitivas para os computadores, que sabem executá-las rapidamente e de forma bem mais confiável.
 
 O ponto chave aqui é reduzir a interação humana. Você já esteve naquela situação em que quer fazer aquela receita de bolo que sua vó faz tão bem. Você liga pra ela anota a receita detalhadamente e a segue perfeitamente, mas no final o bolo não sai como você imaginou, pois é a aqui que entra a automação. Somos humanos, nos distraímos ou simplesmente não estamos em um dia bom. Talvez possamos ter colocado açúcar de mais, ou pouca farinha, quem sabe? Fato é que a automação evita estes problemas e nos deixa livres para focar em coisas mais importantes.
 
-## Métricas
+### Métricas
 
 Uma adoção de DevOps de sucesso irá medir tudo o que for possível, por exemplo: métricas de desempenho, métricas de processo, métricas de negócio etc.
 
@@ -36,10 +36,10 @@ Precisamos saber o que medir para determinar se o nosso pipeline está se tornan
 
 ## Continuous delivery ou CD 
 
-A ideia aqui é apertar um botão e implantar seu código onde quiser (Ambiente de homologação, teste ou produção).
+A ideia aqui é apertar um botão e entregar seu código onde quiser (Ambiente de homologação, teste ou produção).
 
 A entrega contínua deve começar pela implantação do software em um ambiente de teste que espelhe a produção.
- 
+
 executar os testes de aceitação automatizados ou testes de regressão são para garantir que nenhuma nova mudança de código quebrou as funcionalidades existentes. Casos os estes teste falharem então o processo deve parar. O desenvolvedor deve ser notificado automaticamente e alguém deve ser imediatamente designado para resolver esses problemas. Quando os testes de aceitação passarem, então todos os testes não-funcionais automatizados podem ser executados. 
 
 Aqui pode ser executados testes de Carga e segurança.
@@ -64,15 +64,8 @@ Um Servidor Canário funciona como um canário das minas de Carvão, é um servi
 
 Como gerenciar seus servidores, como você gerencia os softwares em execução neles?
 
-
-
-
 Vejamos algumas ferramentas para ajudar neste processo
 
-* [Jenkins](https://jenkins.io/)
-* [Travis CI](https://travis-ci.org/)
-* [GoCd](https://www.gocd.io/)
-* [TeamCity](https://www.jetbrains.com/teamcity/)
 * [Ansible](https://www.ansible.com/)
 * [Chef](https://www.chef.io/)
 * [Puppet](https://puppet.com/)
