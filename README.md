@@ -48,6 +48,8 @@ tudo ok então podemos colocar em um ambiente de testes. Supondo que seu softwar
 
 ### Deployment Methods
 
+Gerencie seus servidores com você gerecia os softwares em execução neles.
+
 #### Entrega azul / verde
 
 As cores Azul e Verde são apenas marcadores de posição para representar um grupo de servidores.
@@ -58,11 +60,6 @@ Você tem dois ambientes, chamados verde e azul. E você tem um roteador para es
 
 Um Servidor Canário funciona como um canário das minas de Carvão, é um servidor onde colocamos uma certa porcentagem do trafego apenas para verificar seu comportamento e verificar se o novo release sobrevive.
 
-#### Monólitos e Micro Serviços
-
-#### Servidores mutáveis X imutáveis
-
-Como gerenciar seus servidores, como você gerencia os softwares em execução neles?
 
 Vejamos algumas ferramentas para ajudar neste processo
 
@@ -81,10 +78,18 @@ Segue algumas etapas de um bom CI
 
 * Ambientes espelhados
 * Versionamento 
-* Linters 
+* Hooks/Linters
 * Migrations
 * Testes
 * Build
+
+
+### Ambientes espelhados
+
+O objetivo é deixar o seu ambiente de desenvolvimento mais próximo do ambiente de produção, assim evitamos o velho problema "Mas na minha maquina esta funcionando"
+
+Docker ou Virtualização são boas ferramentas para este fim
+
 
 ### Versionamento
 
@@ -96,6 +101,28 @@ Algumas dicas para um bom uso de versinamento
 * usar um plugin ou metodologia para ajudar a organizar melhor suas colaborações, _[git flow](https://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html)_ é um bom exemplo disso
 * Hooks de pre e pós commit
 * [Versionamento Semântico](http://semver.org/lang/pt-BR/#versionamento-semntico-200)
+
+
+### Hooks/Linters
+
+Hooks são ferramentas poderosas para automatizar processos, neles podemos rodar scripts de pre e post commit verificando a qualidade de escrita do código com os Linters ou até mesmo rodando alguns testes antes mesmo de subir nossos commits
+
+### Migrations
+
+Temos de ter todo um cuidado especial aqui uma boa dica é ler toda a documentação [django migrations](https://docs.djangoproject.com/en/1.9/topics/migrations/)
+
+
+### Testes
+
+* Testes de unidade:
+> práticas como TDD e refatoração dão bastante ênfase nesse tipo de teste, que exercita unidades de código isoladamente sem a necessidade de subir e aplicação inteira. Esses testes geralmente rodam bem rápido – na ordem de milissegundos – podendo ser executados com bastante frequência e fornecendo o melhor tipo de feedback para os desenvolvedores.
+
+* Testes de integração ou testes de componente:
+> exercitam uma parte da aplicação ou como ela se integra com suas dependências, por exemplo: um banco de dados, um serviço REST, uma fila de mensagens, ou até mesmo os frameworks e bibliotecas utilizados. Dependendo do componente que está sendo testado, a execução desses testes podem exigir que partes do sistema estejam rodando.
+
+* Testes funcionais ou testes de aceitação: 
+> exercitam as funcionalidades do sistema como um todo, do ponto de vista externo. Geralmente este tipo de teste exercita a interface gráfica ou simula a interação com o sistema do ponto de vista de um usuário. Esses testes geralmente são mais lentos pois exigem que a maior parte do sistema esteja rodando.
+
 
 ### Build
 
@@ -118,18 +145,6 @@ Scripts escritos em qualquer linguagens como:
 * PHP
 * Java
 
-
-
-### Testes
-
-* Testes de unidade:
-> práticas como TDD e refatoração dão bastante ênfase nesse tipo de teste, que exercita unidades de código isoladamente sem a necessidade de subir e aplicação inteira. Esses testes geralmente rodam bem rápido – na ordem de milissegundos – podendo ser executados com bastante frequência e fornecendo o melhor tipo de feedback para os desenvolvedores.
-
-* Testes de integração ou testes de componente:
-> exercitam uma parte da aplicação ou como ela se integra com suas dependências, por exemplo: um banco de dados, um serviço REST, uma fila de mensagens, ou até mesmo os frameworks e bibliotecas utilizados. Dependendo do componente que está sendo testado, a execução desses testes podem exigir que partes do sistema estejam rodando.
-
-* Testes funcionais ou testes de aceitação: 
-> exercitam as funcionalidades do sistema como um todo, do ponto de vista externo. Geralmente este tipo de teste exercita a interface gráfica ou simula a interação com o sistema do ponto de vista de um usuário. Esses testes geralmente são mais lentos pois exigem que a maior parte do sistema esteja rodando.
 
 
 ##### Fontes
